@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: white;
+	 background: url("../image/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+.container
+{
+  display: block;width: 100%;
+  height: auto;
+}
+.header
+{
+height:90px;
+width:100%x; 
+}
+.header h1
+{
+	position:absolute;
+text-align:left;
+color:#FFFFFF;
+font-size:43px;
+color:#FFF;	
+left:210px;
+top:18px;
+}
+.header1
+{width: 100%;
+height: 50px;
+background-color:#2429A1;
+}
+.off
+{
+color:#67A0F5;
+}
+.sidemenu{
+    width: 200px;
+    min-height: 600px;
+    background-color: darkslategray;
+    float: left;
+}
+.bold{
+    font-size: 20px;
+}
+.sidemenu ul{
+    list-style: none;
+    padding:0px; 
+}
+.sidemenu ul li{
+    display: block;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px; 
+    text-decoration: none;
+}
+.sidemenu ul li ul li a{
+    text-decoration: none;color:white;
+    margin-left: 10px;
+}
+.sidemenu ul li ul li a:hover{
+    color:#67A0F5;
+}
+.my_content
+{
+   position: relative;
+    top: 20px;
+    left: 100px;
+    background-color:transparent;
+    width: 710px;
+    height: auto;
+    float: left;
+    
+}
+.content_main
+{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background-color:transparent;
+    width: 1000px;
+    height: auto;
+    float: left;
+   
+    
+}
+.button1{
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 0px;
+    background-color: #061C37;
+    color: white;
+    width: 90px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.button1:hover{
+    background-color: white;
+    color: #061C37;
+}
+
+td{
+
+    font-size: 20px;
+}
+input[type="text"], input[type="password"],textarea,input[type="email"],select {
+    width: 100%;
+	font-size: 20px;
+	background: transparent;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	outline: none;
+	margin-top: 5px;
+    margin-bottom: 5px;
+	color: #FFF;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+h2
+{
+
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+}
