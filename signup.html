@@ -1,77 +1,96 @@
- 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>Signup</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Signup</title>
 </head>
+
 <body>
 	<h2>Your Project Name</h2>
- 
-<div class="container">
-     
-    <div class="content_main">
- <form Style="width:800px;height:aoto;margin-left:0px;padding-left:200px;padding-top:100px;" method="post" action="Student_action.php">
-							<fieldset>
-                                <legend><h1>Signup</h1></legend>
-								<table>
-								
-									<tr>
-										<td>User Name</td><td>: </td>
-										<td><input type="text" name="username" placeholder="Enter User Name" required></td>
-									</tr>
-									
-									<tr>
-										<td>Password</td>
-										<td>: </td>
-										<td><input type="password" name="password" value="" placeholder="Enter Password" required></td><td>&nbsp;</td>
-										
-									</tr>
-									
-									<tr>
-									<td>Confirm Password</td>	<td>: 	</td>
-										<td><input type="password" name="confirmpassword" value="" placeholder="Enter Confirm Password" required></td>
-									</tr>
-									
-									<tr>
-										<td>Email Address </td>	<td>:</td>
-										<td><input type="email" name="email" value="" placeholder="Enter Email Address" required></td><td>&nbsp;</td>
-									</tr>
-									<tr>
-										<td>Mobile Number  </td>	<td>:</td>
-										<td><input type="text" name="mobilenumber" value="" placeholder="Enter Mobile Number" required></td><td>&nbsp;</td>
-									</tr>
-									
-									<tr>
-										<td>Gender</td><td>:</td>
-										<td><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female</td>
-									</tr>
-									
-									<tr>
-										<td>City</td><td>:</td>
-										<td>
-										<select name="city">
-										  <option>Indore</option>
-								          <option>Bhopal</option>
-								          <option>Ujjain</option>
-								          <option>Dewas</option>
-								          <option>Jabalpur</option>
-										  </select>
-										 </td>
-									</tr>
-                                   
-									<tr>
-										 
-										<td><input type="reset" value="Reset" class="button1"></td><td></td>
-										<td><input type="submit" name="add_student" value="Signup" class="button1"></td>
-									</tr>
-								</table>
-							</fieldset>
-						</form>
-    </div>
-</div>
- 
+
+	<div class="container">
+
+		<div class="content_main">
+			<form Style="width:800px;height:aoto;margin-left:0px;padding-left:200px;padding-top:100px;" method="post"
+			  action="Student_action.php">
+				<fieldset>
+					<legend>
+						<h1>Signup</h1>
+					</legend>
+					<table>
+
+						<tr>
+							<td>User Name</td>
+							<td>: </td>
+							<td><input type="text" name="username" placeholder="Enter User Name" required></td>
+						</tr>
+
+						<tr>
+							<td>Password</td>
+							<td>: </td>
+							<td><input type="password" name="password" value="" placeholder="Enter Password" required>
+							</td>
+							<td>&nbsp;</td>
+
+						</tr>
+
+						<tr>
+							<td>Confirm Password</td>
+							<td>: </td>
+							<td><input type="password" name="confirmpassword" value=""
+								  placeholder="Enter Confirm Password" required></td>
+						</tr>
+
+						<tr>
+							<td>Email Address </td>
+							<td>:</td>
+							<td><input type="email" name="email" value="" placeholder="Enter Email Address" required>
+							</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Mobile Number </td>
+							<td>:</td>
+							<td><input type="text" name="mobilenumber" value="" placeholder="Enter Mobile Number"
+								  required></td>
+							<td>&nbsp;</td>
+						</tr>
+
+						<tr>
+							<td>Gender</td>
+							<td>:</td>
+							<td><input type="radio" name="gender" value="male"> Male <input type="radio" name="gender"
+								  value="female"> Female</td>
+						</tr>
+
+						<tr>
+							<td>City</td>
+							<td>:</td>
+							<td>
+								<select name="city">
+									<option>Indore</option>
+									<option>Bhopal</option>
+									<option>Ujjain</option>
+									<option>Dewas</option>
+									<option>Jabalpur</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+
+							<td><input type="reset" value="Reset" class="button1"></td>
+							<td></td>
+							<td><input type="submit" name="add_student" value="Signup" class="button1"></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+
 </body>
+
 </html>
